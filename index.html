@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: hsl(0, 0%, 100%);
+      width: 340px;
+      height: auto;
+      font-family: 'Outfit', sans-serif;
+      border-radius: 20px;
+    }
+    #qr{
+      padding: 20px;
+      width: 300px;
+      border-radius: 10%;
+    }
+    #info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+  <span class = "container">
+    <img id= "qr"src="./images/image-qr-code.png">
+    <div id = "info" style = "padding:0px 30px 0px 30px;">
+      <h1 style = "font-weight: 700; color :hsl(218, 44%, 22%) ; margin: 0px; font-size: 22px;">Improve your front-end skills by building projects</h1>
+      <p style = "line-height: 1.5; font-weight: 400; color : hsl(216, 15%, 48%); font-size: 15px; padding:0px 10px 0px 10px; margin-bottom: 40px;">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </span>
+</body>
+</html>
